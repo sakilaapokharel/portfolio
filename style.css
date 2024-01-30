@@ -24,20 +24,20 @@
 
 h1{
   font-family: 'Playfair Display', serif;
-  font-size: 136px;
+  font-size: 120px;
   line-height: 136px;
   font-weight: 400;
   overflow-y: hidden;
 }
 
 h2{
-  font-size: 88px;
+  font-size: 80px;
   font-weight: 400;
 }
 
 h3{
   font-family: 'Playfair Display', serif;
-  font-size: 88px;
+  font-size: 80px;
   font-weight: 400;
   color: var(--orange);
 }
@@ -45,6 +45,9 @@ h3{
 p{
   font-size: 16px;
 }
+
+
+
 
 /* Header CSS Properties */
 
@@ -58,14 +61,11 @@ p{
   border-bottom: 1px solid var(--gray);
 }
 
-
 .top-name{
   margin: 0 auto;
   padding: 80px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center;  */
 }
 
 .top-name .name{
@@ -78,3 +78,36 @@ p{
   margin-left: 40%; /* Adjust spacing from the left */
 }
 
+
+
+
+/* Nav Bar CSS */
+
+.nav .nav-links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.num{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.nav-item{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-item:hover{
+  color: var(--orange);
+  transition: 0.3s;
+}
