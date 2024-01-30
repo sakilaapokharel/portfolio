@@ -24,8 +24,8 @@
 
 h1{
   font-family: 'Playfair Display', serif;
-  font-size: 144px;
-  line-height: 144px;
+  font-size: 136px;
+  line-height: 136px;
   font-weight: 400;
   overflow-y: hidden;
 }
@@ -58,19 +58,23 @@ p{
   border-bottom: 1px solid var(--gray);
 }
 
+
 .top-name{
-  position: relative;
-  width: 100%;
+  margin: 0 auto;
   padding: 80px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center;  */
 }
 
 .top-name .name{
   display: inline-flex;
-  /* flex-direction: row; */
   align-items: flex-end;
-  margin-left: 20%;
+  justify-content: center;
 }
 
 .top-name .designation{
-  margin-left: 32%;
+  margin-left: 40%; /* Adjust spacing from the left */
 }
+
