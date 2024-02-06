@@ -169,7 +169,8 @@ a{
 .explore-button{
   color: var(--orange);
   border: 1px var(--orange) solid;
-  padding: 16px;
+  border-radius: 4px;
+  padding: 12px;
   cursor: pointer;
   align-items: center;
   display: inline-flex; 
@@ -181,7 +182,7 @@ a{
 
 .explore-button span{
   color: var(--orange);
-  font-size: 30px;
+  font-size: 26px;
   font-style: italic;
 }
 
@@ -190,3 +191,22 @@ a{
 }
 
 
+/* Body CSS */
+
+/* Contact icon css */
+
+.contact-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contact-button img {
+  width: 48px; /* Adjust size as needed */
+  height: 48px; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: var(--background);
+  border: 1px var(--orange) solid;
+  padding: 10px;
+  cursor: pointer;
+}
