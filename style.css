@@ -37,9 +37,10 @@ h2{
 
 h3{
   font-family: 'Playfair Display', serif;
-  font-size: 80px;
+  font-size: 72px;
   font-weight: 400;
   color: var(--orange);
+  white-space: nowrap;
 }
 
 p{
@@ -125,11 +126,13 @@ a{
   display: flex;
   flex-direction: column;
   gap: 8px;
+  /* max-width: min-content; */
 }
 
 .first-line{
   display: flex;
   gap: 8px;
+  max-width: fit-content;
 }
 
 .first-line #research{
@@ -151,6 +154,8 @@ a{
   font-size: 20px;
   font-weight: 300;
   line-height: 120%;
+  overflow-wrap: break-word;
+  /* flex: 1; */
 }
 
 .third-line{
@@ -212,4 +217,108 @@ a{
   border: 1px var(--orange) solid;
   padding: 10px;
   cursor: pointer;
+}
+
+
+/* Responsive Design */
+
+@media (max-width:799px){
+
+h1 {
+    font-size: 72px;
+    line-height: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+/* Description Section */
+.header-desc{
+  display: flex;
+  padding: 8%;
+  gap: 10%;
+}
+
+
+.first-line #research{
+  font-size: 16px;
+}
+
+.first-line #design, .right-desc #design{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.first-line #experience{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.second-line{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  overflow-wrap: break-word;
+  /* flex: 1; */
+}
+
+.third-line{
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 120%; */
+}
+
+.explore-button span{
+  font-size: 18px;
+}
+
+.explore-button img {
+  height: 18px;
+  width: 18px;
+}
+
+}
+
+
+@media (max-width:477px){
+
+.top-bar{
+    display: none;
+}
+
+.top-name{
+  margin: 0;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-name .name{
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.top-name .designation{
+  margin-left: 40%; /* Adjust spacing from the left */
+}
+
+
+h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
 }
