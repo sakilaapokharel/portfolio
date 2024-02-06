@@ -170,19 +170,18 @@ a{
   color: var(--orange);
   border: 1px var(--orange) solid;
   border-radius: 4px;
-  padding: 12px;
+  padding: 8px 10px;
   cursor: pointer;
   align-items: center;
   display: inline-flex; 
   gap: 4px;
   align-items: flex-end; 
-
-
+  transition: box-shadow 0.3s ease;
 }
 
 .explore-button span{
   color: var(--orange);
-  font-size: 26px;
+  font-size: 24px;
   font-style: italic;
 }
 
@@ -190,6 +189,10 @@ a{
   vertical-align: bottom; 
 }
 
+
+.explore-button:hover{
+  box-shadow: 0 0 20px var(--orange);
+}
 
 /* Body CSS */
 
