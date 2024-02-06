@@ -292,7 +292,7 @@ h3 {
 }
 
 .top-name{
-  margin: 0;
+  margin: 24px 0;
   padding: 4px;
   display: flex;
   flex-direction: column;
@@ -305,9 +305,31 @@ h3 {
 }
 
 .top-name .designation{
-  margin-left: 40%; /* Adjust spacing from the left */
+  margin: 0 auto; /* Adjust spacing from the left */
+  
 }
 
+/* Nav menu */
+
+.nav .nav-links{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    column-gap: 80px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.num {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 500;
+}
 
 h1 {
   font-size: 24px;
@@ -320,5 +342,17 @@ h2 {
 
 h3 {
   font-size: 20px;
+}
+
+.header-desc{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 8%;
+  justify-content: space-between;
+}
+
+.contact-button {
+  display: none;
 }
 }
