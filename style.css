@@ -203,6 +203,10 @@ a{
 
 /* Contact icon css */
 
+body{
+  padding: 0 8%;
+}
+
 .contact-button {
   position: fixed;
   bottom: 20px;
@@ -218,6 +222,57 @@ a{
   padding: 10px;
   cursor: pointer;
 }
+
+.heading h3{
+  padding: 0 8%;
+}
+
+.card-row{
+  display: flex;
+  gap: 8%;
+  padding: 4% 0;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card img{
+  border-radius: 8px;
+  border: 2px var(--gray) solid;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover{
+  transform: scale(1.05);
+}
+
+.card h4{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card p{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive Design */
