@@ -337,6 +337,12 @@ h3 {
   width: 18px;
 }
 
+
+.card-row{
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
 }
 
 
