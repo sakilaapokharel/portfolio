@@ -60,9 +60,11 @@ p{
   display: initial;
   position: absolute;
   top: 30px;
-  left: 30px;
+  right: 60px;
   color: #222;
   font-size: 24px;
+  height: 24px;
+  width: auto;
 }
 
 
@@ -366,16 +368,19 @@ h3 {
   transition: 0.3s;
 }
 
-
-#navresponsive.active li {
+#navresponsive.active ul.nav-links{
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
-#close{
-  height: 24px;
-  width: auto;
+#navresponsive.active a{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
 }
+
 
 #navresponsive.active {
   right: 0;
