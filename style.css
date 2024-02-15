@@ -47,7 +47,23 @@ p{
   font-size: 16px;
 }
 
+#bar{
+  display: none;
+}
 
+
+#navresponsive{
+  display: none;
+}
+
+#close{
+  display: initial;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #222;
+  font-size: 24px;
+}
 
 
 /* Header CSS Properties */
@@ -60,6 +76,11 @@ p{
   padding: 16px 0;
   margin: 0 8%;
   border-bottom: 1px solid var(--gray);
+}
+
+
+.top-bar #name-phone{
+  display: none;
 }
 
 .top-name{
@@ -86,6 +107,7 @@ p{
 }
 
 /* Nav Bar CSS */
+
 
 .nav .nav-links{
   display: flex;
@@ -282,6 +304,28 @@ body{
 
 @media (max-width:799px){
 
+.top-bar p{
+  font-size: 12px;
+} 
+
+.top-bar #name-desktop{
+  display: none;
+}
+
+.top-bar #name-phone{
+  display: contents;
+}
+
+#open{
+    display: none;
+}
+
+#bar{
+  display: block;
+  width: 20px;
+  height: auto;
+}
+
 h1 {
     font-size: 72px;
     line-height: 80px;
@@ -295,9 +339,48 @@ h3 {
   font-size: 32px;
 }
 
+
+
 .arrow-img{
   display: none;
 }
+
+/* Nav Section */
+
+.nav{
+  display: none;
+}
+
+#navresponsive{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  right: -300px;
+  height: 100vh;
+  width: 300px ;
+  background-color: var(--background);
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+  padding: 80px 0 0 12px;
+  transition: 0.3s;
+}
+
+
+#navresponsive.active li {
+  display: flex;
+  flex-direction: column;
+}
+
+#close{
+  height: 24px;
+  width: auto;
+}
+
+#navresponsive.active {
+  right: 0;
+}
+
 
 /* Description Section */
 
@@ -355,10 +438,6 @@ h3 {
 
 
 @media (max-width:477px){
-
-.top-bar{
-    display: none;
-}
 
 .top-name{
   margin: 24px 0;

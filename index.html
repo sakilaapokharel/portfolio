@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakila Creates</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <section class="top-bar">
-            <p>Sakila Pokharel.</p>
-            <p>Open for any collaborations and offers.</p>
+            <p id="name-desktop">Sakila Pokharel.</p>
+            <p id="name-phone">Welcome!</p>
+            <p id="open">Open for any collaborations and offers.</p>
+            <img src="img/hamburger-icon.png" alt="" id="bar">
         </section>
 
         <img src="img/arrow.png" alt="arrow" class="arrow-img"> 
-        
+
+        <section id="navresponsive">
+            <ul class="nav-links">
+                <li><a href="#case-studies"><div class="num">01</div><div class="nav-item">Works</div></a></li>
+                <li><a href="gallery.html"><div class="num">02</div><div class="nav-item">Gallery</div></a></li>
+                <li><a href="https://dribbble.com/sakila_creates"><div class="num">03</div><div class="nav-item">Dribbble</div></a></li>
+                <li><a href="pages/contact.html"><div class="num">04</div><div class="nav-item">Resume</div></a></li>
+                <li><a href="mailto: sakila.work@gmail.com"><div class="num">05</div><div class="nav-item">Contact</div></a></li>
+                <img id="close" src="img/cross-icon.png" alt="cross">
+            </ul>
+        </section>
+
         <section class="top-name">
             <div class="name">
                 <h1>SAKILA</h1>
@@ -36,6 +50,7 @@
             </ul>
         </section>
 
+
         <section class="header-desc">
             <div class="desc-left">
                 <div class="first-line">
@@ -54,6 +69,7 @@
                 </a>
 
                 <div id="design">for design things, a bit about me and alot of my world.</div>
+                <!-- <div id="design">Also leaning towards UX in AI these days.</div> -->
             </div>
         </section>
 
@@ -112,5 +128,9 @@
             
         </section>
     </body>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
