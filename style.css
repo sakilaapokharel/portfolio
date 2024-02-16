@@ -465,12 +465,12 @@ h3 {
 @media (max-width:477px){
 
   h1 {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 40px;
+    line-height: 48px;
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 32px;
   }
 
   h3 {
@@ -516,7 +516,7 @@ h3 {
   }
 
   .desc-left {
-    gap: 2px;
+    gap: 4px;
   }
 
   .third-line {
