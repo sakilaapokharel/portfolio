@@ -354,7 +354,7 @@ h3 {
 
 #bar{
   display: block;
-  width: 16px;
+  width: 20px;
   height: auto;
 }
 
@@ -465,16 +465,16 @@ h3 {
 @media (max-width:477px){
 
   h1 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 32px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .top-name{
@@ -502,17 +502,17 @@ h3 {
   }
 
   .num {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
   }
 
   .nav-item {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
   }
 
   .second-line {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .desc-left {
@@ -520,7 +520,7 @@ h3 {
   }
 
   .third-line {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .header-desc{
