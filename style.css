@@ -66,11 +66,10 @@ p{
 #close{
   display: initial;
   position: absolute;
-  top: 30px;
-  right: 60px;
+  top: 10px;
+  right: 36px;
   color: #222;
-  font-size: 24px;
-  height: 24px;
+  height: 28px;
   width: auto;
 }
 
@@ -337,7 +336,7 @@ h3 {
 }
 
 .top-bar p{
-  font-size: 10px;
+  font-size: 16px;
 } 
 
 .top-bar #name-desktop{
@@ -354,7 +353,7 @@ h3 {
 
 #bar{
   display: block;
-  width: 20px;
+  width: 28px;
   height: auto;
 }
 
