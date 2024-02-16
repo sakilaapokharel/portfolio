@@ -228,16 +228,58 @@ a{
 
 /* Body CSS */
 
-/* Contact icon css */
+#offer-container{
+  background-image: url(img/background.jpg);
+}
 
-body{
+
+.heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: var(--orange);
+}
+
+.offer{
   padding: 0 8%;
 }
+
+.offer p{
+  width: 70%;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.offer-cards{
+  display: flex;
+}
+
+
+
+.cover-img img{
+  max-width: 100%;
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+}
+
+
+
+#mobile-feature-img{
+  display: none;
+}
+
+
+/* Contact icon css */
+
+/* body{
+  padding: 0 8%;
+} */
 
 .contact-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  border-radius: 80px;
 }
 
 .contact-button img {
@@ -246,6 +288,7 @@ body{
   border-radius: 50%;
   background-color: var(--background);
   border: 1px var(--orange) solid;
+  border-radius: 80px;
   padding: 10px;
   cursor: pointer;
 }
@@ -288,7 +331,6 @@ body{
 .card p{
   font-size: 20px;
 }
-
 
 
 
@@ -370,9 +412,9 @@ h3 {
   align-items: flex-start;
   justify-content: flex-start;
   position: fixed;
-  right: -200px;
+  right: -240px;
   height: 100vh;
-  width: 200px ;
+  width: 240px ;
   background-color: var(--background);
   box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
   padding: 40px 0 0 12px;
@@ -450,6 +492,15 @@ h3 {
   flex-direction: column;
   gap: 4%;
 }
+
+#desktop-feature-img{
+  display: none;
+}
+
+#mobile-feature-img{
+  display: block;
+}
+
 }
 
 
